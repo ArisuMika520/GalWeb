@@ -1,3 +1,3 @@
-var posts=["2025/04/27/Docs/about_notice/","2025/04/28/getlink/getlink/"];function toRandomPost(){
+var posts=["2025/04/27/Docs/5 copy 10/","2025/04/27/Docs/5 copy 2/","2025/04/27/Docs/5 copy 3/","2025/04/27/Docs/5 copy 5/","2025/04/27/Docs/5 copy 6/","2025/04/27/Docs/5 copy 7/","2025/04/27/Docs/5 copy 4/","2025/04/27/Docs/5 copy 8/","2025/04/27/Docs/5 copy 9/","2025/04/27/Docs/5 copy/","2025/04/27/Docs/5/","2025/04/27/Docs/6/","2025/04/27/Docs/7/","2025/04/27/Docs/about_notice/","2025/04/28/getlink/getlink/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
