@@ -1,5 +1,5 @@
 [data-theme=dark] #web_bg {
-    background-size: 130rem;
+    background-size: 150rem;
     background-image: url(https://vip.123pan.cn/1814146125/yk6baz03t0n000d7w33gzq4mw6kszwtuDIYPAdexAqevAGx1Aqav.png) !important;
 }
 
@@ -22,6 +22,13 @@
     background: var(--trans-dark);
     backdrop-filter: var(--backdrop-filter);
     border-radius: 18px;
+    border: var(--border-style);
+  }
+
+  #home_top .swiper_container_card #bannerGroup #random-banner{
+    background: rgba(0, 0, 0, 0.8) !important;
+    backdrop-filter: var(--backdrop-dark);
+    border-radius: 25px;
     border: var(--border-style);
   }
 
@@ -51,6 +58,9 @@
   [data-theme="dark"] #page-header.nav-fixed #nav {
     background: rgba(0, 0, 0, 0.8) !important;
   }
+  [data-theme="dark"] #page-header.not-top-img #nav {
+    background: rgba(0, 0, 0, 0.5) !important;
+  }
   
   /* 夜间模式遮罩 */
   [data-theme="dark"] #recent-posts > .recent-post-item,
@@ -64,10 +74,13 @@
   
   /* 夜间模式页脚页头遮罩透明 */
   [data-theme="dark"] #footer::before {
-    background: transparent !important;
+    background: var(--trans-dark);
   }
   [data-theme="dark"] #page-header::before {
-    background: transparent !important;
+    background: var(--trans-dark);
+  }
+  [data-theme="dark"] #page-header .not-top-img ::before{
+    background: var(--trans-dark);
   }
   
   
