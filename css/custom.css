@@ -9,7 +9,6 @@
     --border-style: 1px solid rgb(169, 169, 169);
   }
   
-  /* 首页文章卡片 */
   #recent-posts > .recent-post-item {
     background: var(--trans-dark);
     backdrop-filter: var(--backdrop-dark);
@@ -17,7 +16,6 @@
     border: var(--border-style);
   }
   
-  /* 首页侧栏卡片 */
   #aside-content .card-widget {
     background: var(--trans-dark);
     backdrop-filter: var(--backdrop-filter);
@@ -39,7 +37,6 @@
     border: var(--border-style);
   }
 
-  /* 文章页、归档页、普通页面 */
   div#post,
   div#page,
   div#archive {
@@ -49,7 +46,6 @@
     border-radius: 20px;
   }
   
-  /* 导航栏 */
   #page-header.nav-fixed #nav {
     background: rgba(255, 255, 255, 0.8);
     backdrop-filter: var(--backdrop-filter);
@@ -62,7 +58,6 @@
     background: rgba(0, 0, 0, 0.5) !important;
   }
   
-  /* 夜间模式遮罩 */
   [data-theme="dark"] #recent-posts > .recent-post-item,
   [data-theme="dark"] #aside-content > .card-widget,
   [data-theme="dark"] div#post,
@@ -72,7 +67,6 @@
   }
   
   
-  /* 夜间模式页脚页头遮罩透明 */
   [data-theme="dark"] #footer::before {
     background: var(--trans-dark);
   }
@@ -84,7 +78,6 @@
   }
   
   
-  /* 阅读模式 */
   .read-mode #aside-content .card-widget {
     background: rgba(158, 204, 171, 0.8) !important;
   }
@@ -92,7 +85,6 @@
     background: rgba(158, 204, 171, 0.8) !important;
   }
   
-  /* 夜间模式下的阅读模式 */
   [data-theme="dark"] .read-mode #aside-content .card-widget {
     background: rgba(25, 25, 25, 0.9) !important;
     color: #ffffff;
