@@ -24,13 +24,20 @@
   }
 
   #home_top .swiper_container_card #bannerGroup #random-banner{
-    background: rgba(0, 0, 0, 0.8) !important;
+    background: rgba(0, 0, 0, 0.7) !important;
     backdrop-filter: var(--backdrop-dark);
     border-radius: 25px;
     border: var(--border-style);
   }
 
   .recent-posts #categoryBar .category-bar {
+    background: var(--trans-dark);
+    backdrop-filter: var(--backdrop-filter);
+    border-radius: 18px;
+    border: var(--border-style);
+  }
+
+  #page #article-container .flink .anzhiyu-flink-list .flink-list-item {
     background: var(--trans-dark);
     backdrop-filter: var(--backdrop-filter);
     border-radius: 18px;
