@@ -1,3 +1,4 @@
+
 // 第一次播放音乐
 var anzhiyu_musicFirst = false;
 // 快捷键
