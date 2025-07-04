@@ -54,6 +54,13 @@
     border: var(--border-style);
   }
 
+  #blog-container {
+    flex: 1;
+  }
+  .page #footer{
+    flex: 1;
+  }
+
   div#post,
   div#page,
   div#archive {
@@ -66,6 +73,7 @@
   #page-header.nav-fixed #nav {
     background: rgba(255, 255, 255, 0.8);
     backdrop-filter: var(--backdrop-filter);
+    flex: 1;
   }
   
   [data-theme="dark"] #page-header.nav-fixed #nav {
