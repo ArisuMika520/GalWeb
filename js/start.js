@@ -2,7 +2,7 @@ Swal.fire
 (
     {  
     title: "<p style='color: #f791a9;'>❤广告点点谢谢喵！♡</p>",  
-    html: "<a href='https://aigirlfriendstudio.com/?ref_id=88f10d5a-aa3a-47a1-b850-94927bf7ba2f' target='_blank'><img src='https://r2.sakinori.top/400x800.gif' width='300' height='600'></a>",
+    html: "<a href='https://aigirlfriendstudio.com/?ref_id=88f10d5a-aa3a-47a1-b850-94927bf7ba2f' target='_blank'><img src='https://r2.sakinori.top/400x800.gif' width='250' height='500'></a>",
     footer: "<p style='color: #f791a9;'>დ感谢支持！所有费用将用于网站开销和新网站&存储的开发！დ</p>",
     icon: "",  
     allowOutsideClick: false,  
