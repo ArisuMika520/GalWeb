@@ -22,7 +22,7 @@ Swal.fire
         Swal.fire
         ({
             title: "<p style='color: #f791a9;'>❤广告点点谢谢喵！♡</p>",  
-            html: "<a href='https://adh.quimbadravfryvryc8jlonex.com/yj/40912/va1orubk' target='_blank'><img src='https://r2.sakinori.top/1920x1080%E7%9A%84%E5%89%AF%E6%9C%AC.png'><p>哔咔漫画 最新黄漫每日更新 打开二次元新世界</p></a>",
+            html: "<a href='https://bjc.truwemvryc7szorvixfarnik.com/yj/40912/va1orubk' target='_blank'><img src='https://r2.sakinori.top/1920x1080%E7%9A%84%E5%89%AF%E6%9C%AC.png'><p>哔咔漫画 最新黄漫每日更新 打开二次元新世界</p></a>",
             footer: "<p style='color: #f791a9;'>დ感谢支持！所有费用将用于网站开销和新网站&存储的开发！დ</p>",
             allowOutsideClick: false,  
             showConfirmButton: true,  
