@@ -1,8 +1,8 @@
 Swal.fire
 (
     {  
-    title: "<p style='color: #f791a9;'>重要公告！！！</p>",
-    html: "<img src='https://r2.sakinori.top/3.webp'>",
+    title: "<p style='color: #f791a9;'>新站全部迁移完成！！！点击跳转！！！</p>",
+    html: "<a href='https://www.lycorisgal.com' target='_blank'><img src='https://r2.sakinori.top/3.webp'></a>",
     footer: "<p style='color: #f791a9;'>დ感谢支持！新网站&存储开发！დ</p>",
     icon: "",  
     allowOutsideClick: false,  
